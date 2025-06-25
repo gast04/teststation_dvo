@@ -7,6 +7,13 @@ remote_theme: jekyll/minima@v2.5.2
 defaults:
   -
     scope:
+      path: "README*"
+    values:
+      layout: default
+      image: https://denuvosoftwaresolutions.github.io/teststation/teststation-logo.png
+      description: "Mobile TestStation, running Android applications on multiple mobile devices and emulators."
+  -
+    scope:
       path: "technical*"
     values:
       layout: default
