@@ -21,7 +21,7 @@ defaults:
       description: "How Mobile TestStation Uncovered Hidden Bugs and Boosted Test Coverage."
   -
     scope:
-      path: "/"
+      path: ""
     values:
       layout: default
       image: https://denuvosoftwaresolutions.github.io/teststation/teststation-logo.png
