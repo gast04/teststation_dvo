@@ -1,3 +1,5 @@
+An easy setup for running an Android application on multiple mobile devices and emulators.
+
 June 2025, &copy; Denuvo GmbH
 
 ![Logo image](teststation-logo.png)
