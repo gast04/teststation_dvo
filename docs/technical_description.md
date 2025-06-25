@@ -1,4 +1,4 @@
-# Scalable Mobile TestStation Infrastructure
+# Scalable Mobile TestStation Architecture & Infrastructure
 
 In software development, comprehensive testing is curcial. For mobile, a wide variety of devices and emulators is needed to ensure the developed application is compatible and functions flawlessly on as many platforms and devices as possible.
 

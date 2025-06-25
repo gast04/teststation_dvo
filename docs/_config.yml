@@ -1,4 +1,4 @@
-title: "TestStation"
+title: "Mobile TestStation"
 author:
   name: "Team @ Denuvo"
 bio: "Denuvo by Irdeto's team is located in Salzburg, Austria. Its mission is to provide anti-piracy and anti-cheat technology for best-in-class solutions employed by global gaming customers."
@@ -12,6 +12,13 @@ defaults:
       layout: default
       image: https://denuvosoftwaresolutions.github.io/teststation/teststation.png
       description: "Architecture for running an Android application on multiple mobile devices and emulators."
+  -
+    scope:
+      path: "use_case*"
+    values:
+      layout: default
+      image: https://denuvosoftwaresolutions.github.io/teststation/bugs.png
+      description: "How Mobile TestStation Uncovered Hidden Bugs and Boosted Test Coverage."
 
 header_pages:
   -
