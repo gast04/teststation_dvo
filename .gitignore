@@ -1,0 +1,9 @@
+.env
+.vscode/
+
+**/__pycache__/
+
+src/grpc_wrapper/grpc_files/communication_pb2.py
+src/grpc_wrapper/grpc_files/communication_pb2_grpc.py
+
+src/grpc_wrapper/tools/test1.jks

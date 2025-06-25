@@ -1,0 +1,48 @@
+FROM python:3.12.10-bookworm
+
+ENV ANDROID_ADB_SERVER_ADDRESS=localhost
+
+RUN apt update
+RUN apt install -y git curl unzip zipalign vim
+
+RUN mkdir -p /usr/local/android-sdk \
+  && cd /usr/local/android-sdk/ \
+  && curl -OL https://dl.google.com/android/repository/platform-tools-latest-linux.zip \
+  && unzip platform-tools-latest-linux.zip \
+  && rm -f platform-tools-latest-linux.zip \
+  && ln -s /usr/local/android-sdk/platform-tools/adb /usr/bin/adb
+
+RUN curl -oL commandlinetool.zip https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+
+RUN mkdir -p /usr/local/android-cmdtools \
+  && cd /usr/local/android-cmdtools/ \
+  && curl -Lo /usr/local/android-cmdtools/commandlinetool.zip https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip \
+  && unzip commandlinetool.zip \
+  && rm -f commandlinetool.zip \
+  && ln -s /usr/local/android-cmdtools/cmdline-tools/bin/sdkmanager /usr/bin/sdkmanager
+
+RUN  wget -O keyfile https://apt.corretto.aws/corretto.key \
+  && cat keyfile | gpg --dearmor -o /usr/share/keyrings/corretto-keyring.gpg \
+  && echo "deb [signed-by=/usr/share/keyrings/corretto-keyring.gpg] https://apt.corretto.aws stable main" | tee /etc/apt/sources.list.d/corretto.list \
+  && apt update \
+  && apt install -y java-17-amazon-corretto-jdk
+
+ENV PYTHONUNBUFFERED=1
+RUN pip install adbutils
+
+RUN mkdir /var/teststation
+COPY . /home/teststation
+RUN pip install -r /home/teststation/requirements.txt >/dev/null
+RUN echo "1.0.0" > /home/teststation/ts_version.txt
+
+# setup build tools for signing and converting aab to apk
+RUN curl -Lo /home/teststation/src/grpc_wrapper/tools/bundletool.jar https://github.com/google/bundletool/releases/download/1.18.1/bundletool-all-1.18.1.jar
+
+RUN echo y | sdkmanager --sdk_root=/home/teststation/src/grpc_wrapper/tools/ "build-tools;35.0.0"
+
+# generate grpc python files
+ENV GRPC_FILES_DIR=/home/teststation/src/grpc_wrapper/grpc_files/
+RUN python -m grpc_tools.protoc -I${GRPC_FILES_DIR} --python_out=${GRPC_FILES_DIR} --grpc_python_out=${GRPC_FILES_DIR} ${GRPC_FILES_DIR}communication.proto
+
+RUN touch .env
+RUN echo "EMPTY=" >> .env

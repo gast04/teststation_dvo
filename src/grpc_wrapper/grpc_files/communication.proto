@@ -1,0 +1,152 @@
+// SPDX-FileCopyrightText: 2025 DENUVO GmbH
+// SPDX-License-Identifier: GPL-3.0
+
+syntax = "proto3";
+
+service CommunicationService {
+  rpc UploadFile (stream FileUploadRequest) returns (FileUploadResponse);
+  rpc UploadApp (stream AppUploadRequest) returns (AppUploadResponse);
+  rpc PullFile (PullFileRequest) returns (stream PullFileResponse);
+  rpc GetOperatingSystem (OperatingSystemRequest) returns (OperatingSystemResponse);
+  rpc GetAdbDevices (GetAdbDevicesRequest) returns (GetAdbDevicesResponse);
+  rpc GetFreeDevices (GetFreeDevicesRequest) returns (GetFreeDevicesResponse);
+  rpc UnlockDevice (UnlockDeviceRequest) returns (UnlockDeviceResponse);
+  rpc InstallApp (InstallAppRequest) returns (InstallAppResponse);
+  rpc UninstallApp (UninstallAppRequest) returns (UninstallAppResponse);
+  rpc IsPackageNameInstalled (IsPackageNameInstalledRequest) returns (IsPackageNameInstalledResponse);
+  rpc StartLogcatCollect (StartLogcatCollectRequest) returns (StartLogcatCollectResponse);
+  rpc StopLogcatCollect (StopLogcatCollectRequest) returns (StopLogcatCollectResponse);
+  rpc RunLastInstalledApk (RunLastInstalledApkRequest) returns (RunLastInstalledApkResponse);
+  rpc KillApp (KillAppRequest) returns (KillAppResponse);
+}
+
+message FileUploadRequest {
+  string filename = 1;
+  bytes chunk_data = 2;
+  string storage_path = 3;
+}
+
+message FileUploadResponse {
+  string message = 1;
+}
+
+message AppUploadRequest {
+  string filename = 1;
+  bytes chunk_data = 2;
+}
+
+message AppUploadResponse {
+  string error = 1;
+  string stored_filename = 2;
+}
+
+message PullFileRequest {
+  string filename = 1;
+}
+
+message PullFileResponse {
+  string error = 1;
+  bytes chunk_data = 2;
+}
+
+message OperatingSystemRequest {}
+
+message OperatingSystemResponse {
+  string os = 1;
+}
+
+message GetAdbDevicesRequest {}
+
+message DeviceInfo {
+    string id = 1;
+    string os = 2;
+    string sdk = 3;
+    string abi = 4;
+    string model = 5;
+}
+
+message GetAdbDevicesResponse {
+  string error = 1;
+  string devices = 2;
+}
+
+message GetFreeDevicesRequest {
+  int32 num_devices = 1;
+  repeated string device_list = 2;
+}
+
+message GetFreeDevicesResponse {
+  string error = 1;
+  repeated string device_list = 2;
+}
+
+message UnlockDeviceRequest {
+  string device_id = 1;
+}
+
+message UnlockDeviceResponse {
+  string error = 1;
+}
+
+message InstallAppRequest {
+  string device_id = 1;
+  string server_path = 2;
+  bool sign_app = 3;
+}
+
+message InstallAppResponse {
+  string error = 1;
+}
+
+message IsPackageNameInstalledRequest {
+  string device_id = 1;
+  string package_name = 2;
+}
+
+message IsPackageNameInstalledResponse {
+  bool installed = 1;
+}
+
+message UninstallAppRequest {
+  string device_id = 1;
+}
+
+message UninstallAppResponse {
+  string error = 1;
+}
+
+message StartLogcatCollectRequest {
+  string device_id = 1;
+}
+
+message StartLogcatCollectResponse {
+  string error = 1;
+  int32 logcat_pid = 2;
+}
+
+message StopLogcatCollectRequest {
+  string device_id = 1;
+}
+
+message StopLogcatCollectResponse {
+  string error = 1;
+  string logcat_file = 2;
+}
+
+message RunLastInstalledApkResponse {
+  string error = 1;
+}
+
+message RunLastInstalledApkRequest {
+  string device_id = 1;
+  int32 execution_time = 2;
+  string custom_cmd = 3;
+}
+
+message KillAppResponse {
+  string error = 1;
+}
+
+message KillAppRequest {
+  string device_id = 1;
+}

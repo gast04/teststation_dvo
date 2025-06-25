@@ -1,0 +1,517 @@
+<mxfile host="Electron" modified="2025-06-05T11:53:09.901Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="JQP_ZQDElsGFHaU5DBJF" version="24.2.5" type="device">
+  <diagram name="Page-1" id="_JrlHSYpUr557qzI3Q1Q">
+    <mxGraphModel dx="246" dy="237" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fd7MF7ffgdelXPDM46hB-200" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7abdff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="252" y="986.5" width="201" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-199" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7abdff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="251" y="936.5" width="201" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-198" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7abdff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="835.5" width="201" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-187" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.058;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="451" y="970.5" as="sourcePoint" />
+            <mxPoint x="255" y="969.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-192" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFF99;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="683" width="201" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-191" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFF99;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="253" y="884.5" width="201" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="rb0gWjyJggA_-kLeUnY3-7" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.004;exitY=0.311;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255.5" y="205.13" as="sourcePoint" />
+            <mxPoint x="205.5" y="205.13" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rb0gWjyJggA_-kLeUnY3-6" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.004;exitY=0.311;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255.5" y="186" as="sourcePoint" />
+            <mxPoint x="205.5" y="186" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="njfaGnBHRwpTKljsh_LI-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="243" y="169" width="122" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="njfaGnBHRwpTKljsh_LI-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="450" y="80" width="101" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="njfaGnBHRwpTKljsh_LI-12" value="RestAPI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="194" y="169.5" width="46" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="njfaGnBHRwpTKljsh_LI-13" value="Web UI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="175.5" y="188" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="njfaGnBHRwpTKljsh_LI-14" value="Hub" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="276.5" y="172.25" width="55" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="njfaGnBHRwpTKljsh_LI-16" value="Node 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="451" y="80" width="47" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="njfaGnBHRwpTKljsh_LI-19" value="gRPC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="382" y="175" width="48" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="njfaGnBHRwpTKljsh_LI-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="450" y="100" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="njfaGnBHRwpTKljsh_LI-34" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Python Docker&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="451" y="102.5" width="58" height="7.5" as="geometry" />
+        </mxCell>
+        <mxCell id="njfaGnBHRwpTKljsh_LI-38" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
+          <mxGeometry x="450" y="114" width="60" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="njfaGnBHRwpTKljsh_LI-23" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="555" y="135" as="sourcePoint" />
+            <mxPoint x="506" y="134.87" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="njfaGnBHRwpTKljsh_LI-37" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;adb&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="490" y="123.5" width="19" height="10.5" as="geometry" />
+        </mxCell>
+        <mxCell id="njfaGnBHRwpTKljsh_LI-35" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;gRPC Port&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="450" y="129" width="32" height="8.5" as="geometry" />
+        </mxCell>
+        <mxCell id="njfaGnBHRwpTKljsh_LI-39" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;Application&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="450" y="114" width="36" height="7.5" as="geometry" />
+        </mxCell>
+        <mxCell id="njfaGnBHRwpTKljsh_LI-65" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;(can be a Node in parallel)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="255.5" y="193" width="97" height="16.5" as="geometry" />
+        </mxCell>
+        <mxCell id="njfaGnBHRwpTKljsh_LI-66" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;Windows&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="522" y="80" width="29" height="7.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPQOwsWajFgwreSp0gN-1" value="Node Communication Flow" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="129" y="499" width="151" height="15.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rb0gWjyJggA_-kLeUnY3-4" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Phones&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="553" y="129.38" width="40" height="9.12" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-2" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#0000CC;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="557" y="111.5" width="9" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-6" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#0000CC;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="568.5" y="111.5" width="9" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-7" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#0000CC;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="580" y="111.5" width="9" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-74" value="&lt;p style=&quot;line-height: 90%;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;Emulators&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="517" y="122.69" width="30" height="7" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-75" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00994D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="517" y="107.81" width="9" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-76" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00994D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="528" y="107.81" width="9" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-77" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00994D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="539" y="107.81" width="9" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-78" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="506" y="126.99000000000001" as="sourcePoint" />
+            <mxPoint x="516" y="126.99000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-79" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="450" y="154" width="101" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-80" value="Node 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="451" y="154" width="47" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-81" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="450" y="174" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-82" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Python Docker&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="451" y="176.5" width="58" height="7.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-83" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="450" y="188" width="60" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-84" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="555" y="209" as="sourcePoint" />
+            <mxPoint x="506" y="208.87" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-85" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;adb&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="197.5" width="19" height="10.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-86" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;gRPC Port&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="203" width="32" height="8.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-87" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;Application&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="188" width="36" height="7.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-88" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;Linux&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="522" y="154" width="29" height="7.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-89" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Phones&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="553" y="203.38" width="40" height="9.12" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-90" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#0000CC;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="557" y="185.5" width="9" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-91" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#0000CC;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="568.5" y="185.5" width="9" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-92" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#0000CC;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="580" y="185.5" width="9" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-93" value="&lt;p style=&quot;line-height: 90%;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;Emulators&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="517" y="196.69" width="30" height="7" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-94" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00994D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="517" y="181.81" width="9" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-95" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00994D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="528" y="181.81" width="9" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-96" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00994D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="539" y="181.81" width="9" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-97" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="506" y="200.99" as="sourcePoint" />
+            <mxPoint x="516" y="200.99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-98" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="450" y="227" width="101" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-99" value="Node n" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="451" y="227" width="47" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-100" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="450" y="247" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-101" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Python Docker&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="451" y="249.5" width="58" height="7.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-102" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="450" y="261" width="60" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-103" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="555" y="282" as="sourcePoint" />
+            <mxPoint x="506" y="281.87" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-104" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;adb&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="270.5" width="19" height="10.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-105" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;gRPC Port&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="276" width="32" height="8.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-106" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;Application&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="261" width="36" height="7.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-107" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;MacOS&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="522" y="227" width="29" height="7.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-108" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Phones&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="553" y="276.38" width="40" height="9.12" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-109" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#0000CC;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="557" y="258.5" width="9" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-110" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#0000CC;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="568.5" y="258.5" width="9" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-111" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#0000CC;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="580" y="258.5" width="9" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-112" value="&lt;p style=&quot;line-height: 90%;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;Emulators&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="517" y="269.69" width="30" height="7" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-113" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00994D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="517" y="254.81" width="9" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-114" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00994D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="528" y="254.81" width="9" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-115" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00994D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="539" y="254.81" width="9" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-116" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="506" y="273.99" as="sourcePoint" />
+            <mxPoint x="516" y="273.99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="njfaGnBHRwpTKljsh_LI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.008;exitY=0.859;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="fd7MF7ffgdelXPDM46hB-105" target="njfaGnBHRwpTKljsh_LI-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="404" y="204" as="targetPoint" />
+            <mxPoint x="450" y="253" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="430" y="283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="njfaGnBHRwpTKljsh_LI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" target="njfaGnBHRwpTKljsh_LI-19" edge="1" source="fd7MF7ffgdelXPDM46hB-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439" y="198" as="targetPoint" />
+            <mxPoint x="450" y="180.0000000000001" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="njfaGnBHRwpTKljsh_LI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.001;exitY=0.927;exitDx=0;exitDy=0;entryX=1.001;entryY=0.516;entryDx=0;entryDy=0;startArrow=classic;startFill=1;exitPerimeter=0;entryPerimeter=0;" parent="1" source="njfaGnBHRwpTKljsh_LI-2" target="njfaGnBHRwpTKljsh_LI-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="136" />
+              <mxPoint x="430" y="192" />
+              <mxPoint x="365" y="192" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-117" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="465" y="494" width="101" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-118" value="Node" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="494" width="47" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-119" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="465" y="514" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-120" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Python Docker&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="466" y="516.5" width="58" height="7.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-121" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="465" y="528" width="60" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-122" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="549" as="sourcePoint" />
+            <mxPoint x="521" y="548.87" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-123" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;adb&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="505" y="537.5" width="19" height="10.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-124" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;gRPC Port&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="543" width="32" height="8.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-125" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;Application&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="528" width="36" height="7.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-127" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Phones&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="568" y="543.38" width="40" height="9.12" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-128" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#0000CC;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="575" y="525.5" width="9" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-129" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#0000CC;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="586.5" y="525.5" width="9" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-131" value="&lt;p style=&quot;line-height: 90%;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;Emulators&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="532" y="536.69" width="30" height="7" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-132" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00994D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="536" y="521.81" width="9" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-135" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="521" y="540.99" as="sourcePoint" />
+            <mxPoint x="531" y="540.99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-136" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;Linux&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="537" y="494" width="29" height="7.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-137" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 9px;&quot;&gt;Available Devices:&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;* emu_1&lt;br&gt;* phone_1&lt;br&gt;* phone_2&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="608" y="491" width="85" height="49.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-141" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="589.5" width="4" height="436" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-142" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="589.5" width="4" height="436" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-144" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;1. GetAdbDevices&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="584.5" width="67.5" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-146" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;1.1 emu_1, phone_1, phone_2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="604.5" width="119" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-147" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Devices are sent with additional information such as architecture, model, OS, and Android version.&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="585.5" width="119" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-148" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.904;exitY=0.034;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="254" y="649.5" as="sourcePoint" />
+            <mxPoint x="450" y="649.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-149" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;2. GetFreeDevices (emu_1, phone_1)&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="634.5" width="147.5" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-150" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.058;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="669.5" as="sourcePoint" />
+            <mxPoint x="254" y="668.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-151" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;2.1 emu_1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="654.5" width="59" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-152" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Requested free devices will be automatically locked for usage.&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="131" y="647" width="119" height="18.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-153" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Devices that could be locked will be returned.&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="462" y="648" width="119" height="18.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-158" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.904;exitY=0.034;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="254" y="698" as="sourcePoint" />
+            <mxPoint x="450" y="698" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-159" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;3. StartLogcatCollect (emu_1)&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="683" width="117.5" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-160" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.058;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="718" as="sourcePoint" />
+            <mxPoint x="254" y="717" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-161" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;3.1 logcat collector process id&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="703" width="119" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-163" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Logcat will be collected for the locked devices and stored to disk&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="462" y="693.5" width="128" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-164" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.904;exitY=0.034;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="254" y="748" as="sourcePoint" />
+            <mxPoint x="450" y="748" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-165" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;4. InstallApp (emu_1)&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="733" width="117.5" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-166" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.058;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="768" as="sourcePoint" />
+            <mxPoint x="254" y="767" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-167" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;4.1 succeeded yes/no&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="753" width="99" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-170" value="&lt;div style=&quot;font-size: 8px;&quot;&gt;Communication flow after &lt;code data-end=&quot;90&quot; data-start=&quot;78&quot;&gt;executeApp&lt;/code&gt; is called from the REST API.&lt;br data-end=&quot;122&quot; data-start=&quot;119&quot;&gt;Before the communication flow begins, the application is uploaded to the node.&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="131" y="516.5" width="285" height="24.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-171" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.904;exitY=0.034;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="254" y="800.5" as="sourcePoint" />
+            <mxPoint x="450" y="800.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-172" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;5. RunLastInstalledApp (emu_1)&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="785.5" width="117.5" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-173" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.058;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="820.5" as="sourcePoint" />
+            <mxPoint x="254" y="819.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-174" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;5.1 succeeded yes/no&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="805.5" width="99" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-176" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.904;exitY=0.034;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="254" y="849.5" as="sourcePoint" />
+            <mxPoint x="450" y="849.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-177" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;6. UninstallApp (emu_1)&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="834.5" width="117.5" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-178" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.058;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="869.5" as="sourcePoint" />
+            <mxPoint x="254" y="868.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-179" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;6.1 succeeded yes/no&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="854.5" width="99" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-180" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.904;exitY=0.034;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="254" y="900.5" as="sourcePoint" />
+            <mxPoint x="450" y="900.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-181" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;7. StopLogcatCollect (emu_1)&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="885.5" width="117.5" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-182" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.058;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="920.5" as="sourcePoint" />
+            <mxPoint x="254" y="919.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-183" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;7.1 logcat file location&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="905.5" width="99" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-184" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.904;exitY=0.034;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="254" y="601.5" as="sourcePoint" />
+            <mxPoint x="450" y="601.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-185" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.904;exitY=0.034;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255" y="950.5" as="sourcePoint" />
+            <mxPoint x="451" y="950.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-186" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;8. PullFile (file_name)&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="263.5" y="935.5" width="117.5" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-188" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;8.1 file content (bytes)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="351" y="955.5" width="99" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-190" value="GRPC Client" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="589.5" width="87.5" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-193" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.058;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="620" as="sourcePoint" />
+            <mxPoint x="254" y="619" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-194" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.058;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="1020.5" as="sourcePoint" />
+            <mxPoint x="254" y="1019.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-195" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.904;exitY=0.034;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="254" y="1000.5" as="sourcePoint" />
+            <mxPoint x="450" y="1000.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-196" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;9. UnlockDevice (emu_1)&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="985.5" width="117.5" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-197" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;9.1 succeeded yes/no&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1005.5" width="99" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fd7MF7ffgdelXPDM46hB-201" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Steps 6-9 are executed within a Python context window to ensure that, in case of an error during the installation or execution of the app, the device is always cleaned up and unlocked.&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="885.5" width="173.5" height="54" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

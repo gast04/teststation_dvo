@@ -1,0 +1,5 @@
+ARG BASE_IMAGE=mobile_teststation
+FROM ${BASE_IMAGE}
+
+# GRPC Backend Server only needs to start the grpc-server
+ENTRYPOINT ["python", "/home/teststation/src/grpc_wrapper/grpc_server.py"]
