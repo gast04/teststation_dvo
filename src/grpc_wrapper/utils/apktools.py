@@ -47,7 +47,7 @@ def get_ks_args(logger: Any = None) -> list[str] | None:
         "--ks",
         keystore_file.as_posix(),
         "--ks-pass",
-        os.environ["KEYSTORE_PASS"],
+        f"pass:{os.environ['KEYSTORE_PASS']}",
         "--ks-key-alias",
         os.environ["KEYSTORE_KEY_ALIAS"],
     ]

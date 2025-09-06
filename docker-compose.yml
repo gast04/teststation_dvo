@@ -1,0 +1,38 @@
+services:
+  teststation_ui:
+    build:
+      context: .
+      dockerfile: ./Dockerfile.frontend
+    container_name: teststation_ui
+    env_file: ".env"
+    environment:
+      - TZ=Europe/Berlin
+      - ANDROID_ADB_SERVER_ADDRESS=host.docker.internal
+      - REL_DIR=/tmp/teststation/Release
+      - UI_PORT=12000
+      - FASTAPI_IP=localhost
+      - FASTAPI_PORT=12001
+      - GRPC_PORT=12002
+      - GRPC_SERVER_MAC_LOCAL=localhost:12002
+      - DOZZLE_WEBSITE=http://localhost:6060
+      - KEYSTORE_FILE=develop_test.jks
+      - KEYSTORE_KEY_ALIAS=test_key
+
+    ports:
+      - 12000:12000
+      - 12001:12001
+      - 6060:6060
+    volumes:
+      - /tmp:/tmp/teststation/Release
+    restart: unless-stopped
+
+  dozzle_logger:
+    image: amir20/dozzle:latest
+    container_name: teststation_dozzle_logger
+    environment:
+      - TZ=Europe/Berlin
+    ports:
+      - 6070:8080
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped
